@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build && npm run flatten-views:win",
+    "preview": "vite preview",
+    "flatten-views:win": "if exist dist\\src\\views (robocopy dist\\src\\views dist /E /MOVE >nul & if %ERRORLEVEL% LEQ 7 (rmdir /S /Q dist\\src & exit /b 0) else exit /b %ERRORLEVEL%)",
+    "flatten-views:unix": "mv dist/src/views/* dist/ && rm -rf dist/src"
   },
   "dependencies": {
     "sass": "^1.86.3",

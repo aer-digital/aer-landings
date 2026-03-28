@@ -12,7 +12,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         index: resolve(__dirname, 'index.html'),
-        // comming_soon: resolve(__dirname, 'comming-soon/index.html'),
+        'jogatina': resolve(__dirname, 'src/views/jogatina/index.html'),
+        'jogatina-privacy': resolve(__dirname, 'src/views/jogatina/privacy/index.html'),
       }
     },
     outDir: 'dist',       // Ativa a geração na pasta dist
