@@ -22,170 +22,158 @@
   <div id="wrapper">
 
     <!-- Intro -->
-    <section class="intro">
-      <header>
-        <h1>App Recompensa</h1>
-        <p>Em breve, uma solução inovadora e acessível que auxiliará na recuperação de veículos roubados ou furtados.
-        </p>
-        <ul class="actions">
-          <li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
-        </ul>
-      </header>
-      <div class="content">
-        <span class="image fill" data-position="center"><img src="../../assets/images/logo.png" alt="" /></span>
-      </div>
-    </section>
+<section class="intro">
+  <header>
+    <h1>Jogatina</h1>
+    <p>Em breve, o seu app completo para aprender, organizar e jogar os principais jogos de cartas — tudo em um só lugar.
+    </p>
+    <ul class="actions">
+      <li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+    </ul>
+  </header>
+  <div class="content">
+    <span class="image fill" data-position="center"><img src="../../assets/images/jogatina/logo.png" alt="" /></span>
+  </div>
+</section>
 
-    <!-- Post 1 -->
-    <section id="first" v-if="post == 0">
-      <header>
-        <h2>Como descobrir se seu carro foi clonado?</h2>
-      </header>
-      <div class="content">
-        <span class="image main"><img src="../../assets/images/descobrir_carro_roubado.png" alt="" /></span>
-        <div>
-          <strong>Receber multas que não reconhece</strong>
-          <p>
-            Verifique se há multas em locais onde você não esteve.
-            Isso pode ser um indício de clonagem, pois o veículo clonado pode estar sendo usado para cometer infrações.
-          </p>
-        </div>
+<!-- Post 1 -->
+<section id="first" v-if="post == 0">
+  <header>
+    <h2>Aprenda a jogar sem complicação</h2>
+  </header>
+  <div class="content">
+    <span class="image main"><img src="../../assets/images/descobrir_carro_roubado.png" alt="" /></span>
 
-        <div>
-          <strong>Verificar placa e chassi</strong>
-          <p>
-            Outra forma, é comparar os números de chassi e motor do seu veículo com os registrados no documento.
-            Se houver discrepâncias, pode indicar clonagem.
-          </p>
-        </div>
+    <div>
+      <strong>Tutoriais simples e diretos</strong>
+      <p>
+        Aprenda as regras dos principais jogos de cartas de forma rápida, com explicações claras e objetivas.
+      </p>
+    </div>
 
-        <div>
-          <strong>Consultar orgãoes de transito</strong>
-          <p>
-            Utilize serviços online ou vá até o órgão de trânsito responsável para consultar a situação do veículo.
-            Ferramentas como o SINESP Cidadão, permitem verificar se há registros de ocorrências a placa do seu carro.
-          </p>
-        </div>
-      </div>
-    </section>
+    <div>
+      <strong>Dicas e estratégias</strong>
+      <p>
+        Vá além do básico com dicas práticas para melhorar seu jogo e se destacar nas partidas.
+      </p>
+    </div>
 
-    <!-- Post 2 -->
-    <section id="first" v-if="post == 1">
-      <header>
-        <h2>Como descobrir se seu carro foi clonado?</h2>
-      </header>
-      <div class="content">
-        <span class="image main"><img src="../../assets/images/recuperar_umveiculo_roubado.png" alt="" /></span>
-        <div>
-          <strong>Contate a polícia</strong>
-          <p>
-            Em um momento de tensão, muitas pessoas podem se esquecer de pedir auxílio às autoridades.
-            O tempo é um fator muito importante que incide sobre a chance de reencontrar o veículo subtraído.
-            Ligue 190 assim que possível.
-          </p>
-        </div>
+    <div>
+      <strong>Tudo em um só lugar</strong>
+      <p>
+        Nada de procurar regras em vários sites — aqui você encontra tudo organizado e fácil de acessar.
+      </p>
+    </div>
+  </div>
+</section>
 
-        <div>
-          <strong>Acione a seguradora ou rastreamento</strong>
-          <p>
-            Caso tenha seguro ou rastreador em seu veículo, informe imediatamente a empresa sobre o roubo ou furto.
-            Assim, a mesma poderá iniciar o processo de recuperação e, se o veículo não for, a indenização conforme a
-            apólice.
-          </p>
-        </div>
+<!-- Post 2 -->
+<section id="first" v-if="post == 1">
+  <header>
+    <h2>Ferramentas para suas partidas</h2>
+  </header>
+  <div class="content">
+    <span class="image main"><img src="../../assets/images/recuperar_umveiculo_roubado.png" alt="" /></span>
 
-        <div>
-          <strong>Registre um B.O.</strong>
-          <p>
-            Não deixe de registrar um boletim de ocorrência (B.O.) na delegacia mais próxima ou de serviços online
-            disponíveis em algumas regiões.
-            O B.O. é essencial para formalizar a situação e iniciar a investigação policial.
-          </p>
-        </div>
+    <div>
+      <strong>Contador de pontos</strong>
+      <p>
+        Marque pontos de forma prática durante o jogo, sem precisar improvisar papel ou memória.
+      </p>
+    </div>
 
-        <div>
-          <strong>Solicite reembolso do IPVA</strong>
-          <p>
-            Caso não consiga recuperar seu veículo, com o B.O. em mãos, você pode solicitar uma restituição de parte do
-            IPVA junto às secretarias estaduais da Fazenda, responsáveis pela cobrança do imposto.
-            Não são todos os estados que oferecem esse benefício.
-          </p>
-        </div>
-      </div>
+    <div>
+      <strong>Organização de partidas</strong>
+      <p>
+        Tenha suporte para diferentes jogos e formatos, facilitando a experiência para você e seus amigos.
+      </p>
+    </div>
 
-    </section>
+    <div>
+      <strong>Experiência offline</strong>
+      <p>
+        Use o app em qualquer lugar, mesmo sem internet, ideal para jogar em qualquer momento.
+      </p>
+    </div>
 
-    <!-- Post 3 -->
-    <section id="first" v-if="post == 2">
-      <header>
-        <h2>Roubaram um veículo na sua rua e você nem deve estar sabendo...</h2>
-      </header>
-      <div class="content">
-        <span class="image main"><img src="../../assets/images/alert.png" alt="" /></span>
-        <div>
-          <strong>Aumento de roubos!</strong>
-          <p>
-            O Brasil registrou em média <strong>MIL ROUBOS</strong> de carros por dia em 2023, sendo 373.225 ocorrências
-            no ano.
-            <br><strong>8% a mais que no ano de 2022!</strong>
-          </p>
-        </div>
+    <div>
+      <strong>Pronto para vários jogos</strong>
+      <p>
+        Do Truco à Cacheta — e muitos outros — tudo pensado para evoluir junto com você.
+      </p>
+    </div>
+  </div>
+</section>
 
-        <div>
-          <strong>E quantos deles são recuperados?</strong>
-          <p>
-            Em média, apenas 30% dos carros roubados voltam para seus donos.
-            Ou seja, 70% nunca mais são vistos.
-          </p>
-        </div>
-      </div>
-    </section>
+<!-- Post 3 -->
+<section id="first" v-if="post == 2">
+  <header>
+    <h2>Seu companheiro para jogos de cartas</h2>
+  </header>
+  <div class="content">
+    <span class="image main"><img src="../../assets/images/alert.png" alt="" /></span>
 
-    <!-- Section -->
-    <section>
-      <header>
-        <h2>Ficou interessado na nossa solução?</h2>
-      </header>
-      <div class="content">
-        <p>Fique atento nas nossas <strong>Plataformas digitais</strong> que em breve já estaremos na sua loja de apps.
-        </p>
-        <div>
-          <ul class="items">
+    <div>
+      <strong>Perfeito para qualquer ocasião</strong>
+      <p>
+        Seja em casa, com amigos ou em viagem, tenha sempre as regras e ferramentas na palma da mão.
+      </p>
+    </div>
+
+    <div>
+      <strong>Menos confusão, mais jogo</strong>
+      <p>
+        Chega de discutir regra no meio da partida — consulte rapidamente e continue jogando.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Section -->
+<section>
+  <header>
+    <h2>Curtiu a ideia?</h2>
+  </header>
+  <div class="content">
+    <p>
+      Fique de olho no nosso <strong>site</strong> — em breve o Jogatina estará disponível na sua loja de apps.
+    </p>
+    <!-- <div>
+      <ul class="items">
+        <li>
+          <ul class="icons">
             <li>
-              <ul class="icons">
-                <li>
-                  <a href="https://www.instagram.com/recompensa.si/" target="_blank"
-                    class="icon brands fa-instagram"><span class="label">Instagram</span></a>
-                </li>
-                <li>
-                  <a href="https://www.tiktok.com/@recompensa.si" target="_blank" class="icon brands fa-tiktok"><span
-                      class="label">Codepen</span></a>
-                </li>
-              </ul>
+              <a href="https://www.instagram.com/recompensa.si/" target="_blank"
+                class="icon brands fa-instagram"><span class="label">Instagram</span></a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@recompensa.si" target="_blank"
+                class="icon brands fa-tiktok"><span class="label">TikTok</span></a>
             </li>
           </ul>
-        </div>
+        </li>
+      </ul>
+    </div> -->
+  </div>
+</section>
+
+<!-- <section>
+  <header>
+    <h2>Ficou com alguma dúvida?</h2>
+    <a target="_blank"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSdZxUHZne79oSGYAC_-Xqa3VfJ6w7H_vojg3Lpa-zqQ3OOdzg/viewform">
+      <div id="button_google_forms">
+        <h3>🔗 Fale com a gente</h3>
       </div>
-      <footer>
-
-      </footer>
-    </section>
-
-    <section>
-      <header>
-        <h2>Alguma duvida?</h2>
-        <a target="_blank"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdZxUHZne79oSGYAC_-Xqa3VfJ6w7H_vojg3Lpa-zqQ3OOdzg/viewform">
-          <div id="button_google_forms">
-            <h3>🔗 Fale conosco</h3>
-          </div>
-        </a>
-      </header>
-    </section>
+    </a>
+  </header>
+</section> -->
   </div>
 </template>
 
 <style lang="scss">
+  @use "./style.scss";
+
   input[type="submit"],
   input[type="reset"] {
     color: #EAE4D7 !important;
@@ -205,5 +193,12 @@
     h3{
       margin: 0;
     }
+  }
+
+  #scrollUp:before{
+    background: style.$primary;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
   }
 </style>
