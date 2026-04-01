@@ -7,7 +7,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
   plugins: [vue()],
-  base: './', // Configura caminhos relativos para o Amplify
+  // base: './', // Configura caminhos relativos para o Amplify
+  base: '/aer-landings/', // Configura caminhos relativos para o GitHub Pages
   build: {
     rollupOptions: {
       input: {
