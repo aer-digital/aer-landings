@@ -42,7 +42,7 @@
     <h2>Aprenda a jogar sem complicação</h2>
   </header>
   <div class="content">
-    <span class="image main"><img src="../../assets/images/descobrir_carro_roubado.png" alt="" /></span>
+    <!-- <span class="image main"><img src="../../assets/images/descobrir_carro_roubado.png" alt="" /></span> -->
 
     <div>
       <strong>Tutoriais simples e diretos</strong>
@@ -73,7 +73,7 @@
     <h2>Ferramentas para suas partidas</h2>
   </header>
   <div class="content">
-    <span class="image main"><img src="../../assets/images/recuperar_umveiculo_roubado.png" alt="" /></span>
+    <!-- <span class="image main"><img src="../../assets/images/recuperar_umveiculo_roubado.png" alt="" /></span> -->
 
     <div>
       <strong>Contador de pontos</strong>
@@ -111,7 +111,7 @@
     <h2>Seu companheiro para jogos de cartas</h2>
   </header>
   <div class="content">
-    <span class="image main"><img src="../../assets/images/alert.png" alt="" /></span>
+    <!-- <span class="image main"><img src="../../assets/images/alert.png" alt="" /></span> -->
 
     <div>
       <strong>Perfeito para qualquer ocasião</strong>
