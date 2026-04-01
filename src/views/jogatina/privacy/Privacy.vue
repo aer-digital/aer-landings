@@ -1,5 +1,5 @@
 <template>
-    <PDF src="../../../docs/privacy.pdf"/>
+    <PDF src="/docs/privacy.pdf"/>
   </template>
   <script setup lang="ts">
     import PDF from 'pdf-vue3';
