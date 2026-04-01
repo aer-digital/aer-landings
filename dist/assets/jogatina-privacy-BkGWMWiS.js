@@ -1,0 +1,1 @@
+import{f as p}from"./runtime-dom.esm-bundler-D5OqSA-P.js";import{_ as m}from"./Privacy.vue_vue_type_script_setup_true_lang-D9HSjpB2.js";import"./preload-helper-Dp1pzeXC.js";p(m).mount("#app-privacy");
